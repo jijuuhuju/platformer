@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!-- ハッカーのターミナル画面 -->
+<div id="terminal">
+    <div id="logArea"></div>
+    <div id="inputLine">root@hacker:~# <span id="typingCode"></span><span class="cursor">|</span></div>
+</div>
+
+<!-- ハッキング進行度パネル -->
+<div id="hackProgress">
+    <div>[ INFILTRATING DATABASE ]</div>
+    <div id="barOuter"><div id="barInner"></div></div>
+    <div id="percentText">0%</div>
+</div>
+
+<!-- 【新演出】アクセス成功メッセージ -->
+<div id="successMessage">
+    <div class="glowText">ACCESS GRANTED</div>
+    <div id="downloadStatus">DOWNLOADING SECRET_DATA.DAT...</div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
